@@ -1,1 +1,1 @@
-cd Gui && yarn install && yarn serve
+cd Gui && yarn install && yarn build && yarn preview
