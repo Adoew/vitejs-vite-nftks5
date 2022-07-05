@@ -9,7 +9,6 @@ import '@fortawesome/fontawesome-free/js/all.js';
 
 import { createApp } from 'vue';
 import App from '@/App.vue';
-import store from './store';
 
 import axios from 'axios';
 
@@ -37,7 +36,6 @@ export default function AppVue(Routes) {
 
   const app = createApp(App);
   app.use(router);
-  app.use(store);
   app.component(VueNumberInput.name, VueNumberInput);
   app.config.globalProperties.axios = axios;
   app.use(VueKonva);

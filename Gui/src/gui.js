@@ -1,5 +1,5 @@
 import routes from './gui-router.js';
 
-import guiApplication from 'library';
+import GuiApplication from 'library';
 
-guiApplication(routes);
+GuiApplication(routes);

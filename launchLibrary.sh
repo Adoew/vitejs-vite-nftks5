@@ -1,0 +1,1 @@
+cd guiLibrary && yarn install && yarn build

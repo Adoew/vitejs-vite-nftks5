@@ -1,0 +1,1 @@
+cd Gui && yarn install && yarn serve
