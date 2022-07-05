@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "serve": "vite --mode development --open",
+    "serve": "vite --mode development",
     "build": "vite build",
     "preview": "vite preview"
   },
