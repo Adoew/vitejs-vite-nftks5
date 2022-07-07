@@ -11,14 +11,14 @@ module.exports = defineConfig({
     },
     cssCodeSplit: false,
     assetsInlineLimit: 50000,
-    /*rollupOptions: {
-            external: ['vue'],
-            output: {
-              globals: {
-                vue: 'Vue'
-              }
-            }
-        }*/
+    rollupOptions: {
+      external: ['vue'],
+      output: {
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
   },
   resolve: {
     alias: {
